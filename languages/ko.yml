@@ -1,0 +1,458 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ko:
+  book:
+    want_to_read: 읽고 싶은
+    want_to_rent: 대여하고 싶은
+    now_reading: 대여한
+    read_done: 반납한
+    owned: 소유한
+    do_borrow: "대여!"
+    do_return: "반납!"
+    want_to_borrow: "대여하고 싶은!"
+  views:
+    pagination:
+      first: "@laquo; 처음"
+      last: "마지막 &raquo;"
+      previous: "&lsaquo; 이전"
+      next: "다음 &rsaquo;"
+      truncate: "..."
+  see_more: "더 보기"
+  borrowed_books: 대여한 책들
+  presented_books: ""
+  presented_book: ""
+  recommended_books: "추천하는 책"
+  recommended_book: "추천하는"
+  favorite_books: 좋아하는 책
+  favorite_places: 좋아하는 장소
+  label_settings: "설정"
+  label_signout: "로그아웃"
+  label_user_page: "사용자 페이지"
+  label_profile: "프로필"
+  listing_place_managers: "관리자목록"
+  managed_places: "관리하는 장소 목록"
+  edit_managers: "관리자 편집"
+  service_provider: "리브라이즈"
+  popular_books: "인기도서"
+  cm_movie: "리브라이즈는 여러분들의 책장을 세상과 연결하는 웹서비스입니다."
+  notable_places: "주목할만한 곳"
+  scan_mode:
+    auto: "자동"
+    borrow: "대여・반납"
+    present: "등록・기증"
+    admin: "관리자로그인"
+  site_name: "리브라이즈"
+  service_name: "리브라이즈 - 여러분들의 책장을 세상과 연결합니다."
+  service_description: "리브라이즈는 개인들의 책장을 연결하는 도서관 서비스입니다."
+  in_rent: "대여중"
+  available_to_rent: "대여가능"
+  stock_places: "놓여있는 장소"
+  not_for_rent: "대여불가능"
+  item_title: "제목"
+  borrowable: "대여가능"
+  presented: ""
+  update: "업데이트"
+  create: ""
+  updated: "업데이트완료"
+  manage_book_permissions: ""
+  enter_foursquare_venue_url_or_id: "포스퀘어 장소 웹주소 또는 장소 아이디"
+  enter_external_place_url_or_id: "위치정보를 가진 페이스북 페이지 웹주소 또는 포스퀘어의 웹주소를 입력해주세요."
+  check: "체크"
+  create_new_place: "새로운 북스팟 등록"
+  edit_place: "북스팟 편집"
+  view_all: "모두 보기"
+  activerecord:
+    attributes:
+      place:
+        name: 이름
+        description: 설명
+        venue_sid: "포스퀘어 장소 아이디"
+        fb_page_sid: "페이스북 페이지 아이디"
+      news_user:
+        email: "이메일"
+        allow_email: "메일 설정"
+  register: "등록"
+  registration_completed: "이메일을 등록해주셔서 감사합니다. 리브라이즈의 소식을 기대해주세요."
+  registration_error: "등록에 실패했습니다. 이메일 주소를 확인하거나 잠시 후 다시 시도해주세요."
+  recently_registered_books: "최근 등록된 도서"
+  recently_borrowed_books_by_borrower: "이 책을 대여한 사람들이 대여한 도서"
+  recently_borrowed_books: "최근 대여한 도서"
+  save_configurations: "설정을 저장하였습니다."
+  thanks_to_register_news_letter: "뉴스레터에 등록해주셔서 감사합니다. "
+  counter_hit_greetings: "축하합니다. %{count}권의 책을 등록해주셔서 감사합니다."
+
+  private: "비공개"
+  others: "기타"
+  you_can_read_here: ""
+  confirm_register_this_item: "이 도서를 등록하시겠습니까?"
+  fb_comments: "댓글"
+  admin_menu: "관리자 메뉴"
+  uploader_mail: ""
+  delete: "삭제"
+  confirm_delete_place_item: "「%{name}」을 삭제하시겠습니까?"
+  place_item_deleted: "삭제되었습니다."
+  export_place_items: "내보내기(북로그형식)"
+  num_total_borrow: "총 대여"
+  show_num_cases: "%{num}건"
+  show_num_books: "%{num}권"
+  num_in_borrow: "대여중"
+  borrowed_date: "대여일"
+  return_limit_date: "반납기한"
+  due_over: ""
+  due_within: ""
+  place_item:
+    status:
+      ok: "대여가능"
+      norent: "읽기만 가능"
+      renting: "대여중"
+      yet_renting: "대여된 도서"
+  browser:
+    sound: "사운드"
+  mail_magazine:
+    target:
+      all: ''
+      facebook_user: '페이스북 로그인 사용자'
+      news_user: ''
+      place_owner: '북스팟 관리자'
+      admin: '리브라이즈 시스템 (관리자용)'
+      myself: '(나에게 보내기)'
+    unsubscribe_description: "만약 메일 수신을 원치 않는 경우 <a href=\"%{unsubscribe_url}\"> 여기를 클릭 </ a> 배송을 중지를 부탁드립니다."
+  flash_message:
+    error:
+      mode_error: ''
+      no_book_processing: ''
+      only_for_existent_book: ''
+      permission_missing: ""
+
+    information:
+      deleted: ''
+    facebook:
+      logged_in: ''
+      logged_out: ''
+    facebook_error:
+      login_failed: ''
+    present:
+      presented: ''
+      registered: ''
+      loaded: ''
+      canceled: ''
+      registered_for_user: ''
+      prepared_for_user: ''
+      prepared_for_book: ''
+    present_error:
+      ignored: ''
+      not_found: ''
+      error: ''
+      not_acceptable_input: ""
+    borrow:
+      returned: ''
+      borrowed: ''
+      prepared_for_book: ''
+      prepared_for_user: ''
+    borrow_error:
+      ignored: ''
+      ignored_borrow_no_return: ''
+      not_acceptable_input: ""
+    admin:
+      registered: ''
+      unregistered: ''
+    admin_error:
+      user_is_admin: ''
+      not_acceptable_input: ""
+    auto:
+      presented: ''
+      borrowed: ''
+    auto_error:
+      not_acceptable_input: ""
+    dupl:
+      prepared: ''
+      registered: ''
+    shelf:
+      prepared_for_book: ""
+      registered: ""
+      unregistered: ""
+    shelf_present:
+      prepared_for_book: ""
+      registered: ""
+      unregistered: ""
+    pool_item:
+      selected: ""
+  place_created: ""
+  place_already_exists: ""
+  place_updated: ""
+  place_update_failed: ""
+  card:
+    bookspot_name: ""
+    bookspot_owner: ""
+    user: ""
+    sessions:
+      signed_in_by_bookspot: ''
+      signed_in_by_user: ''
+      signed_out: ''
+  librize:
+    original_code: ''
+    internal_code: ''
+  footer:
+    for_users: ""
+    for_owners: ""
+    for_media: ""
+    help: ""
+    places: ""
+    registration: ""
+    prices: ""
+    demo: ""
+    aboutus: ""
+  menu:
+    aboutus: ""
+    help: ""
+    registration: ""
+    places: ""
+    profile: ""
+    logout: ""
+    login: ""
+    terms: ""
+    privacy: ""
+    how_to_contact: ''
+    faq: ""
+    facebook_group: ""
+    edit_profile: ""
+    store: ""
+    see_store: ""
+    librize_store: ""
+  top:
+    service_description: |
+    cafe: ""
+    office: ""
+    restaurant: ""
+    coworking_space: ""
+    slogan: |
+    new_and_donated: ""
+    message_for_owners: ""
+    facebook_login: ""
+  show_all: ''
+  bookspots: ''
+  bookspots_on_top: ''
+  num_collected_books: ""
+  admin:
+    create_bookspot: ""
+    create_bookspot_more: ""
+    bookspot_title: ""
+    bookspot_description: ""
+    bookspot_tag_line: ""
+    label:
+      title: ""
+      description: ""
+      unique_url: ""
+      bookspot_type: ""
+      owner: ""
+      manager: ""
+      download_data: ""
+      download_data_here: ""
+      registration_email: ""
+      experimental_feature: ""
+      describe_x: ""
+      route: ""
+      address: ""
+      tel: ""
+      email: ""
+      site_url: ""
+      twitter: ""
+      tag_line: ""
+      calilable: ""
+      calilable_yes: ""
+      calilable_no: ""
+      calilable_message: ""
+    how_to_get_unique_url: ""
+    unique_url_desc: ""
+    borrow:
+      ok: ""
+      ng: ""
+    submit: ""
+    scan_barcode: ""
+    bookspot:
+      route: ""
+      address: ""
+      tel: ""
+      email: ""
+      site_url: ""
+      twitter: ""
+  search:
+    label:
+      title: ""
+      bookspot: ""
+      global: ""
+      street: ""
+      place: ""
+  just_returned: ""
+  recently_used_places: ""
+  picked_items: ""
+  user_was_successfully_updated: ""
+  user_email_was_successfully_confirmed: ""
+  user_email_was_not_successfully_confirmed: ""
+  this_is_email_confirmation: ""
+  please_click_to_confirm_email_link: ""
+  registration:
+    connect_scanner: ""
+    signup_or_login_after: ""
+    signup_or_login_before: ""
+    select_facebook_page: ""
+    create_bookspot: ""
+    cancel_bookspot: ""
+    create_another_facebook_page: ""
+    need_facebook_page: ""
+    create_facebook_page: ""
+    need_manage_pages_permission1: ""
+    need_manage_pages_permission2: ""
+    existing_facebook_pages: ""
+    existing_facebook_pages_second_part: ""
+    your_facebook_pages: ""
+    scan_barcode: ""
+    choose_facebook_page: ""
+  mobile:
+    label:
+      borrowed_at: ""
+    borrowed_at_format: ""
+  tag_label:
+    readable: ""
+    borrowable: ""
+    short:
+      readable: ""
+      borrowable: ""
+    not_borrowable: ""
+  search_condition:
+    title: ""
+    all: ""
+    recently_created: ""
+    recommended: ""
+    borrowed_or_returned: ""
+    info: ""
+    sort_order:
+      title: ""
+      reg_desc: ""
+      upd_desc: ""
+      recently_returned: ""
+    pool_place_items: ""
+  books_presented_by: ""
+  key:
+    borrowed: ""
+    presented: ""
+  auth:
+    cancel: ""
+    proceed: ""
+    facebook_auth_required: ""
+    facebook_auth_required_to_view_user_page: ""
+  item:
+    author: ""
+    publisher: ""
+    presenter: ""
+    alt_amazon: ""
+    edit_item_info: ""
+    edit_cancel: ""
+    save: ""
+    delete: ""
+    edit: ""
+    confirm_delete: ""
+    readable_place: ""
+    borrowed_people: ""
+    no_borrowed_person: ""
+  language:
+    ja: ""
+    en: ""
+  place:
+    info: ""
+    edit:
+      label: ""
+      member_role:
+        card: ""
+      pane:
+        history: "アクティビティ"
+        members: ""
+        managers: ""
+        card_users: ""
+        profile: ""
+        design: ""
+        coupons: ""
+        lab: ""
+        upload: ""
+        history: ""
+        connection: ""
+  back_to_the_bookshelf: ""
+  term:
+    favorite: ""
+    favorited: ""
+    favorite_using_facebook: ""
+  order:
+    created: ""
+    updated: ""
+    payment_method:
+      invoice: ""
+      card: ""
+    state:
+      ordered: ""
+      payed: ""
+      preparing: ""
+      shipped: ""
+      ordered_by_invoice: ""
+      waiting_receipt: ""
+      complete_receipt: ""
+  currency:
+    jpy:
+      format: ""
+      unit: ""
+  cart:
+    added: ""
+    listing: ""
+    empty: ""
+    confirm: ""
+    add: ""
+    empty_redirect: ""
+    invalid_item: ""
+  user:
+    label:
+      email: ""
+      locale: ""
+      description: ""
+      name: ""
+      password: ""
+      password_confirmation: ""
+    edit:
+      pane:
+        profile: ""
+        orders: ""
+  locale:
+    en_label: ""
+    ja_label: ""
+  label:
+    community: ""
+    bookspot_staff: ""
+    share: ""
+    favorite_users: ""
+    borrowed_users: ""
+    staff: ""
+    presented_users: ""
+    user_card_fb: ""
+    payment:
+      card: ""
+      invoice: ""
+    free: ""
+  messages:
+    payment_error: ""
+  store:
+    add_to_cart: ""
+    description: ""
+  time:
+    formats:
+      month_day: ''
+  user_view_condition:
+    activities: ""
+    borrow_activities: ""
+    present_activities: ""
+  go:
+    new:
+      enter_place_code: ""
+      enter_auth_code: ""
+  pool_place_item:
+    exit_confirmation: ""
+  twitter:
+    follow_librize: ""

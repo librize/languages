@@ -1,0 +1,463 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en_US:
+  book:
+    want_to_read: want to read
+    want_to_rent: want to borrow
+    now_reading: borrowing
+    read_done: returned
+    owned: owned
+    do_borrow: "Borrow!"
+    do_return: "Return!"
+    want_to_borrow: "Want to borrow!"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "…"
+  see_more: "See more"
+  borrowed_books: Borrowed Books
+  presented_books: "Presented Books"
+  presented_book: "Presented"
+  recommended_books: "Recommended Books"
+  recommended_book: "Recommended"
+  favorite_books: Favorite Books
+  favorite_places: Favorite Places
+  label_settings: "Settings"
+  label_signout: "Logout"
+  label_user_page: "User page"
+  label_profile: "Profile"
+  listing_place_managers: "Managers"
+  managed_places: "Managed places"
+  edit_managers: "Edit Managers"
+  service_provider: "Librize"
+  popular_books: "Popular books"
+  cm_movie: "Connect your library to your town"
+  notable_places: "Bookspots"
+  scan_mode:
+    auto: "Auto"
+    borrow: "Borrow/Return"
+    present: "Register/Present"
+    admin: "Manage admins"
+  site_name: "Librize"
+  service_name: "Librize - connect your library to the world."
+  service_description: "Librize is a library service for any bookshelves."
+  in_rent: "Borrowing"
+  available_to_rent: "Borrowable"
+  stock_places: "Stock places"
+  not_for_rent: "Not for borrow"
+  item_title: "Title"
+  borrowable: "Borrowable"
+  presented: "Presented book"
+  update: "Update"
+  create: "Create"
+  updated: "Updated"
+  manage_book_permissions: "Books and settings"
+  enter_foursquare_venue_url_or_id: "Foursquare Venue URL or Venue ID"
+  enter_external_place_url_or_id: "Enter Facebook Page URL or Foursquare URL"
+  check: "Check"
+  create_new_place: "Register new bookspot"
+  edit_place: "Edit bookspot"
+  view_all: "View all"
+  activerecord:
+    attributes:
+      place:
+        name: Name
+        description: Description
+        venue_sid: "Foursquare Venue ID"
+        fb_page_sid: "Facebook Page ID"
+      news_user:
+        email: "EMail"
+        allow_email: "Mail settings"
+  register: "Register!"
+  registration_completed: "Thanks for your email registration. See you soon!"
+  registration_error: "Registration is failed. Please check your email or retry again in few minutes."
+  recently_registered_books: "Recently registered books"
+  recently_borrowed_books_by_borrower: "Recently borrowed books by this book borrower."
+  recently_borrowed_books: "Recently borrowed books"
+  save_configurations: "Preference has been saved."
+  thanks_to_register_news_letter: "Thanks for your email registration."
+  counter_hit_greetings: "Congratulation & thank you for the %{count}th registration of the book!"
+
+  private: "Private"
+  others: "Other"
+  you_can_read_here: "You can read here."
+  confirm_register_this_item: "Confirm registration"
+  fb_comments: "Comment"
+  admin_menu: "Admin settings"
+  uploader_mail: "Admin email"
+  delete: "Delete"
+  confirm_delete_place_item: "Delete '%{name}' from your library?"
+  place_item_deleted: "Deleted"
+  export_place_items: "Export as booklog format."
+  num_total_borrow: "Total"
+  show_num_cases: "%{num}"
+  show_num_books: "%{num}"
+  num_in_borrow: "In borrow"
+  borrowed_date: "Borrowed date"
+  return_limit_date: "Return limit"
+  due_over: "Due over %{time_in_words}!"
+  due_within: "Due within %{time_in_words}"
+  place_item:
+    status:
+      ok: "Borrowable"
+      norent: "Only for reading"
+      renting: "In borrow"
+      yet_renting: "Borrowed books"
+  browser:
+    sound: "Sound"
+  mail_magazine:
+    target:
+      all: 'Facebook and News users'
+      facebook_user: 'Facebook users'
+      news_user: 'Only for News users'
+      place_owner: 'Bookspot manager'
+      admin: 'Librize system admins'
+      myself: '(send myself)'
+    unsubscribe_description: "If you don't want to receive our emails, please <a href=\"%{unsubscribe_url}\">click here</a>. We'll soon stop to deliver emails to you."
+  flash_message:
+    error:
+      mode_error: 'This book can''t be processed on this mode.'
+      no_book_processing: 'Unavailable to scan book on this mode.'
+      only_for_existent_book: 'Scanned unregistered book.'
+      permission_missing: "Not enough permission."
+
+    information:
+      deleted: 'Deleted'
+    facebook:
+      logged_in: 'Logged in.'
+      logged_out: 'Logged out.'
+    facebook_error:
+      login_failed: 'Failed to login.'
+    present:
+      presented: 'Presented'
+      registered: 'Registered'
+      loaded: 'Loaded'
+      canceled: 'Present canceled.'
+      registered_for_user: 'Registered.<br/>When presened book, scan user card.'
+      prepared_for_user: 'Prepared for present.<br/> Scan user card.'
+      prepared_for_book: 'Prepared for present.<br/> Scan a book.'
+    present_error:
+      ignored: 'Present ignored.'
+      not_found: 'Could not find ISBN from datbase.'
+      error: 'Error occured.'
+      not_acceptable_input: "This code can't be processed on this mode."
+    borrow:
+      returned: 'Returned'
+      borrowed: 'Borrowed'
+      prepared_for_book: 'Prepared for borrowing.<br/> Scan your book.'
+      prepared_for_user: 'Prepared for borrowing.<br/> Scan user card.'
+    borrow_error:
+      ignored: 'Unborrowable book'
+      ignored_borrow_no_return: 'Already borrowed. Operation ignored.'
+      not_acceptable_input: "This code can't be processed on this mode."
+    admin:
+      registered: 'Manager has been added.'
+      unregistered: 'Manager has been removed.'
+    admin_error:
+      user_is_admin: 'Admin is already manager.<br/>You do not need additional operations.'
+      not_acceptable_input: "This code can't be processed on this mode."
+    auto:
+      presented: 'Presented.'
+      borrowed: 'Borrowed.'
+    auto_error:
+      not_acceptable_input: "This code can't be processed on this mode."
+    dupl:
+      prepared: 'Scan barcode for the book.'
+      registered: 'Barcode has been attached.'
+    shelf:
+      prepared_for_book: "Bookshelf registered."
+      registered: "Book stored to the shelf."
+      unregistered: "Book removed to the shelf."
+    shelf_present:
+      prepared_for_book: ""
+      registered: "The book registered in this bookshelf."
+      unregistered: "The book unregistered from the shelf."
+    pool_item:
+      selected: "Book has been selected."
+  place_created: "Bookspot has been created."
+  place_already_exists: "Bookspot already exists."
+  place_updated: "Bookspot has been updated."
+  place_update_failed: "Fail to update bookspot."
+  card:
+    bookspot_name: "Bookspot"
+    bookspot_owner: "Bookspot managers."
+    user: "User"
+    sessions:
+      signed_in_by_bookspot: 'Logged in as bookspot card.'
+      signed_in_by_user: 'Logged in as user card.'
+      signed_out: 'Logged out.'
+  librize:
+    original_code: 'Code'
+    internal_code: 'Code'
+  footer:
+    for_users: "For Users"
+    for_owners: "For Owners"
+    for_media: "For Media"
+    help: "How to use"
+    places: "Bookspots"
+    registration: "Registration"
+    prices: "Plans and Prices"
+    demo: "Showroom"
+    aboutus: "About Us"
+  menu:
+    aboutus: "About Us"
+    help: "Help"
+    registration: "Registration"
+    places: "Bookspots"
+    profile: "Profile"
+    logout: "Logout"
+    login: "Login"
+    terms: "Terms"
+    privacy: "Privacy Policy"
+    how_to_contact: 'Contact us via <a href="https://www.facebook.com/librize">Facebook Page Messaging Tool</a><br /> or <a href="mailto:welcome@librize.com">Mail</a>'
+    faq: "FAQ"
+    facebook_group: "Facebook group"
+    edit_profile: "Settings"
+    store: "Store"
+    see_store: "See Store"
+    librize_store: "Librize Store"
+  top:
+    service_description: |
+      plenty of books on our planet.
+      let's turn every bookshelf
+      into one worldwide library.
+    cafe: "Cafe"
+    office: "Office"
+    restaurant: "Restaurant"
+    coworking_space: "Coworking space"
+    slogan: |-
+      Grab a barcode reader
+      and open your own library. It's FREE.
+    new_and_donated: "new & donated"
+    message_for_owners: "Do you own a cafe or an office space? Share your books by making your bookshelves a world wide library!"
+    facebook_login: "Sign up using Facebook."
+  show_all: 'Show all'
+  bookspots: 'Bookspots'
+  bookspots_on_top: 'Bookspots'
+  num_collected_books: "%{num} Books"
+  admin:
+    create_bookspot: "Create new bookspot"
+    create_bookspot_more: "Create more bookspot"
+    bookspot_title: "Bookspot name"
+    bookspot_description: "Bookspot description"
+    bookspot_tag_line: "Describe tag line."
+    label:
+      title: "Name"
+      description: "Desc."
+      unique_url: "Unique URL"
+      bookspot_type: "Type"
+      owner: "Owner"
+      manager: "Manager"
+      download_data: "Books Data"
+      download_data_here: "Click here to download data as CSV format."
+      registration_email: "Book registration email"
+      experimental_feature: "both features are experimental"
+      describe_x: "Click X to remove it from manager list."
+      route: "Route to bookspot."
+      address: "Address"
+      tel: "Phone number"
+      email: "Contact email"
+      site_url: "Web site"
+      twitter: "Twitter Account"
+      tag_line: "Tag line"
+      calilable: "Connect to Calil."
+      calilable_yes: "Enabled"
+      calilable_no: "Disabled"
+      calilable_message: "Calil(tm) is a library search service, biggest in Japan. Your bookspot has been searchable by Calil. You books can be spread using Calil. Available statues are `Readable', `Borrowable', `Borrowing' per a book. But, if you don't want to spread your books widely, it can be disabled."
+    how_to_get_unique_url: "%{mpi} registered books required."
+    unique_url_desc: "First char should be Alpha. Alpha, Num -. (>=3)"
+    borrow:
+      ok: "Borrow OK"
+      ng: "View Only"
+    submit: "Save"
+    scan_barcode: "Scan barcode."
+    bookspot:
+      route: "Describe route e.g. nearest station."
+      address: "Enter address"
+      tel: "Enter phone number"
+      email: "e.g.) welcome@librize.com"
+      site_url: "e.g.) http://librize.com"
+      twitter: "e.g.) @librize"
+  search:
+    label:
+      title: "Search"
+      bookspot: "Search Bookspot"
+      global: "Search globally"
+      street: "Search in group"
+      place: "Search Bookspot: Name / Region"
+  just_returned: "Books returned"
+  recently_used_places: "Places visited"
+  picked_items: "Pick-up"
+  user_was_successfully_updated: "Your profile updated."
+  user_email_was_successfully_confirmed: "Your mail address has been confirmed."
+  user_email_was_not_successfully_confirmed: "We couldn't confirm your mail address."
+  this_is_email_confirmation: "Your mail address has been changed. This is a mail for confirmation."
+  please_click_to_confirm_email_link: "Click the link below to confirm your mail address."
+  registration:
+    connect_scanner: "Acquire <span class=\"scanner\">a barcode reader</span> and connect it to your Mac or PC."
+    signup_or_login_after: "Sign up or log in to <span class=\"logo\">your Librize account!</span><span class=\"message\">*You are already logged in. Thank you for registering!</span>"
+    signup_or_login_before: "<a href=\"/login-and-back\">Sign up or log in</a> to <span class=\"logo\">your Librize account!</span>"
+    select_facebook_page: "Select the Facebook page that you operate and create a bookspot."
+    create_bookspot: "Create a Bookspot"
+    cancel_bookspot: "Cancel"
+    create_another_facebook_page: "Click here to create another new facebook page."
+    need_facebook_page: "A facebook page is needed to create a bookspot."
+    create_facebook_page: "Click here to create a new facebook page"
+    need_manage_pages_permission1: "If you already have your Facebook page. Click the link below. After that, Facebook shows 'Librize would like to manage your Pages.' to you. Please click 'OK'. Librize only get Facebook page list you managed. When your bookspot is created, you can remove this permission."
+    need_manage_pages_permission2: ""
+    existing_facebook_pages: "* Already "
+    existing_facebook_pages_second_part: " has been created."
+    your_facebook_pages: "Facebook page that you have"
+    scan_barcode: ""
+    choose_facebook_page: "Choose a Facebook page to connect your new bookspot."
+  mobile:
+    label:
+      borrowed_at: "Date"
+    borrowed_at_format: "%b %d"
+  tag_label:
+    readable: "You can read books."
+    borrowable: "You can borrow books."
+    short:
+      readable: "Read"
+      borrowable: "Borrow"
+    not_borrowable: "No service to lend the books here."
+  search_condition:
+    title: "Search condition"
+    all: "All"
+    recently_created: "New"
+    recommended: "Staff recommend"
+    borrowed_or_returned: "Borrowed/Returned"
+    info: "Information"
+    sort_order:
+      title: "Sort"
+      reg_desc: "Recently registered"
+      upd_desc: "Recently updated"
+      recently_returned: "Recently returned"
+    pool_place_items: "book not registered"
+  books_presented_by: "Books presented by %{name}"
+  key:
+    borrowed: "Borrowed"
+    presented: "Presented"
+  auth:
+    cancel: "Cancel"
+    proceed: "Proceed"
+    facebook_auth_required: "Facebook auth required."
+    facebook_auth_required_to_view_user_page: "<p>Faceboo auth is required to view user page.</p><p>If you have logged in since, it's automatically executed. If first time, Facebook auth login page will be shown, after your authorization, you can access user page.</p>"
+  item:
+    author: "Author"
+    publisher: "Publisher"
+    presenter: "Presented by"
+    alt_amazon: "Go to Amazon"
+    edit_item_info: "Edit book info"
+    edit_cancel: "Cancel"
+    save: "Save"
+    delete: "Delete"
+    edit: "Edit"
+    confirm_delete: "Delete '%{title}'?"
+    readable_place: "This book can be read at"
+    borrowed_people: "Borrowed People"
+    no_borrowed_person: "No borrowed yet"
+  language:
+    ja: "Japanese"
+    en: "English"
+  place:
+    info: "Information"
+    edit:
+      label: "Settings"
+      member_role:
+        card: "Card/Seal User"
+      pane:
+        history: "アクティビティ"
+        members: "Members"
+        managers: "Managers"
+        card_users: "Card/Seal Users"
+        profile: "Profile"
+        design: "Design"
+        coupons: "Coupons"
+        lab: "Librize Lab."
+        upload: "Register books"
+        history: "Borrowers"
+        connection: "Connections"
+  back_to_the_bookshelf: "Back to the Bookshelf page."
+  term:
+    favorite: "Follow"
+    favorited: "Following"
+    favorite_using_facebook: "Follow this place using Facebook."
+  order:
+    created: "Order has been completed."
+    updated: "Order has been updated."
+    payment_method:
+      invoice: "Invoice"
+      card: "Card"
+    state:
+      ordered: "Ordered"
+      payed: "Payed"
+      preparing: "Preparing shipping"
+      shipped: "Shipped/Order complete"
+      ordered_by_invoice: ""
+      waiting_receipt: ""
+      complete_receipt: ""
+  currency:
+    jpy:
+      format: "%n %u"
+      unit: "YEN"
+  cart:
+    added: "Item has been added."
+    listing: "Cart items"
+    empty: "Cart is empty."
+    confirm: "Order confirmation"
+    add: "Add to cart"
+    empty_redirect: "Cart is empty. Back to store top."
+    invalid_item: "You can't purchase this item."
+  user:
+    label:
+      email: "Email"
+      locale: "Language"
+      description: "Profile"
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Password(confirmation)"
+    edit:
+      pane:
+        profile: "Profile"
+        orders: "Orders"
+  locale:
+    en_label: "English - English"
+    ja_label: "Japanese - 日本語"
+  label:
+    community: "Community"
+    bookspot_staff: "Bookspot Staff"
+    share: "Share"
+    favorite_users: "Favorited Users"
+    borrowed_users: "Borrowed/Checked-in Users"
+    staff: "staff"
+    presented_users: "Presented Users"
+    user_card_fb: "FB User Card"
+    payment:
+      card: "Card"
+      invoice: "Invoice"
+    free: "FREE"
+  messages:
+    payment_error: "Payment input error."
+  store:
+    add_to_cart: "Add to cart"
+    description: "Welcome to the Librize Store! We sell many items to enjoy Librize more. For example, official barcode scanner, bookspot/user card without Facebook, goods for books management. Please check these items and share to your friends!"
+  time:
+    formats:
+      month_day: '%-m/%-d'
+  user_view_condition:
+    activities: "Activities"
+    borrow_activities: "Borrowed Books"
+    present_activities: "Presented Books"
+  go:
+    new:
+      enter_place_code: "Scan place code."
+      enter_auth_code: "Scan auth code."
+  pool_place_item:
+    exit_confirmation: "There are inputs not saved. Move to other page?"
+  twitter:
+    follow_librize: "Follow @librize"

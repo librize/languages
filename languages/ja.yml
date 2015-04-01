@@ -1,0 +1,474 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ja:
+  book:
+    want_to_read: 読みたい
+    want_to_rent: 借りたい
+    now_reading: 借りてる
+    read_done: 借りてたけど返した
+    owned: 持ってる
+    do_borrow: "借りる！"
+    do_return: "返す！"
+    want_to_borrow: "借りたい！"
+  views:
+    pagination:
+      first: "&laquo; 最初へ"
+      last: "最後へ &raquo;"
+      previous: "&lsaquo; 前へ"
+      next: "次へ &rsaquo;"
+      truncate: "…"
+  see_more: "もっと見る"
+  borrowed_books: 借りている本
+  presented_books: "寄贈書"
+  presented_book: "寄贈書"
+  recommended_books: "おすすめ本"
+  recommended_book: "おすすめ"
+  favorite_books: 好きな本
+  favorite_places: 好きな場所
+  label_settings: "設定"
+  label_signout: "ログアウト"
+  label_user_page: "ユーザページ"
+  label_profile: "プロフィール"
+  listing_place_managers: "管理人リスト"
+  managed_places: "管理している場所リスト"
+  edit_managers: "管理者の設定"
+  service_provider: "リブライズ"
+  popular_books: "リブライズで人気の本"
+  cm_movie: "リブライズは、街じゅうを図書館にするWEBサービスです。"
+  notable_places: "注目のブックスポット"
+  scan_mode:
+    auto: "自動"
+    borrow: "貸出・返却"
+    present: "登録・寄贈"
+    admin: "管理者登録"
+  site_name: "リブライズ"
+  service_name: "リブライズ 〜すべての本棚を図書館に〜"
+  service_description: "リブライズは「すべての本棚を図書館に」を目指しながら、本棚のあるコミュニケーションスペースを全力で応援するサービスです"
+  in_rent: "貸出中"
+  available_to_rent: "貸出可"
+  stock_places: "置いてある場所"
+  not_for_rent: "禁帯出"
+  item_title: "タイトル"
+  borrowable: "貸出可"
+  presented: "寄贈本"
+  update: "更新"
+  create: "作成"
+  updated: "更新されました"
+  manage_book_permissions: "本の一覧・属性の設定"
+  enter_foursquare_venue_url_or_id: "FoursquareのVenue URLまたはVenue IDを入力してください。"
+  enter_external_place_url_or_id: "場所の情報を持っているFacebook PageのURL、もしくはFoursquareのURLを入力してください。"
+  check: "チェック"
+  create_new_place: "新しくブックスポットを登録"
+  edit_place: "ブックスポットを編集"
+  view_all: "すべて見る"
+  activerecord:
+    attributes:
+      place:
+        name: 名前
+        description: 説明
+        venue_sid: "Foursquare Venue ID"
+        fb_page_sid: "Facebook Page ID"
+      news_user:
+        email: "メールアドレス"
+        allow_email: "メール送信設定"
+  register: "登録!"
+  registration_completed: "ご登録ありがとうございました！リブライズからのニュースをお楽しみに！"
+  registration_error: "登録に失敗しました。メールアドレスを確認してください。もしそれでもだめな場合はしばらくたってからやり直してください"
+  recently_registered_books: "最近登録された本"
+  recently_borrowed_books_by_borrower: "この本を借りた人が、最近借りている本"
+  recently_borrowed_books: "最近借りた本"
+  save_configurations: "設定を保存しました"
+  thanks_to_register_news_letter: "ニュースレターへのご登録ありがとうございます"
+  counter_hit_greetings: "%{count}冊目の登録、ありがとう＆おめでとうございます!"
+
+  private: "非公開"
+  others: "その他"
+  you_can_read_here: "ここで読めます"
+  confirm_register_this_item: "この本を登録しますか?"
+  fb_comments: "コメント"
+  admin_menu: "管理者メニュー"
+  uploader_mail: "登録用メールアドレス"
+  delete: "削除"
+  confirm_delete_place_item: "「%{name}」を削除してもよいですか?"
+  place_item_deleted: "削除されました"
+  export_place_items: "エクスポート(ブクログ形式)"
+  num_total_borrow: "総貸出数"
+  show_num_cases: "%{num}件"
+  show_num_books: "%{num}冊"
+  num_in_borrow: "貸出中"
+  borrowed_date: "貸出日"
+  return_limit_date: "返却期限"
+  due_over: "%{time_in_words}超過!"
+  due_within: "あと%{time_in_words}"
+  place_item:
+    status:
+      ok: "貸出OK"
+      norent: "閲覧のみ"
+      renting: "貸出中"
+      yet_renting: "まだ貸出中"
+  browser:
+    sound: "サウンド"
+  mail_magazine:
+    target:
+      all: 'Facebookログインユーザとニュース登録ユーザ'
+      facebook_user: 'Facebookログインユーザ'
+      news_user: 'ニュース(のみ)登録ユーザ'
+      place_owner: 'ブックスポット管理者'
+      admin: 'リブライズの中の人(ほぼテスト用)'
+      myself: '(自分自身に送る)'
+    unsubscribe_description: "これ以降メールの受け取りを希望されない場合は<a href=\"%{unsubscribe_url}\">こちらをクリック</a>して配送の停止をお願いいたします。"
+  flash_message:
+    error:
+      mode_error: 'このモードで処理できないバーコードです。'
+      no_book_processing: 'このモードでは本をスキャンできません。'
+      only_for_existent_book: '未登録の本がスキャンされました。'
+      permission_missing: "必要な権限が不足しています"
+
+    information:
+      deleted: '削除されました'
+    facebook:
+      logged_in: 'ログインしました。'
+      logged_out: 'ログアウトしました。'
+    facebook_error:
+      login_failed: 'ログインに失敗しました。'
+    present:
+      presented: '本が寄贈されました。'
+      registered: '本が登録されました。'
+      loaded: '本が読み込まれました。'
+      canceled: '本の寄贈がキャンセルされました。'
+      registered_for_user: '本が登録されました。寄贈書の場合は<br/>利用者カードをスキャンしてください。'
+      prepared_for_user: '寄贈準備ができました。<br/>利用者カードをスキャンしてください。'
+      prepared_for_book: '寄贈準備ができました。<br/>本をスキャンしてください。'
+    present_error:
+      ignored: '寄贈できない本です。'
+      not_found: 'ISBNから本を見つけることができませんでした。'
+      error: 'エラーが起きました。'
+      not_acceptable_input: "このモードで処理できないバーコードです。"
+    borrow:
+      returned: '本が返却されました。'
+      borrowed: '本を貸し出しました。'
+      prepared_for_book: '貸出準備ができました。<br/>本をスキャンしてください。'
+      prepared_for_user: '貸出準備ができました。<br/>利用者カードをスキャンしてください。'
+    borrow_error:
+      ignored: '貸出できない本です。'
+      ignored_borrow_no_return: '別の人に貸出されている本は貸出しできません。'
+      not_acceptable_input: "このモードで処理できないバーコードです。"
+    admin:
+      registered: '管理者が追加登録されました。'
+      unregistered: '管理者登録を解除しました。'
+    admin_error:
+      user_is_admin: '開設者はすでに管理者になっています。<br/>追加の操作は不要です。'
+      not_acceptable_input: "このモードで処理できないバーコードです。"
+    auto:
+      presented: '本が寄贈されました。'
+      borrowed: '本を貸し出しました。'
+    auto_error:
+      not_acceptable_input: "このモードで処理できないバーコードです。"
+    dupl:
+      prepared: '本のバーコードをスキャンしてください。'
+      registered: '本にバーコードが割り当てられました。'
+    shelf:
+      prepared_for_book: "新しい本をスキャンすると本棚に登録されます。"
+      registered: "本棚に本が登録されました。"
+      unregistered: "本棚から本が登録解除されました。"
+    shelf_present:
+      prepared_for_book: "新しい本をスキャンすると本棚に登録されます。"
+      registered: "本棚に本が登録されました。"
+      unregistered: "本棚から本が登録解除されました。"
+    pool_item:
+      selected: "本が選択されました。"
+  place_created: "新しいブックスポットを作成しました。"
+  place_already_exists: "ブックスポットはすでに存在します。"
+  place_updated: "ブックスポット情報を更新しました。"
+  place_update_failed: "ブックスポット情報の更新に失敗しました。"
+  card:
+    bookspot_name: "ブックスポット"
+    bookspot_owner: "ブックスポット管理者"
+    user: "利用者"
+    sessions:
+      signed_in_by_bookspot: 'ブックスポットカードでログインしました。'
+      signed_in_by_user: '利用者カードでログインしました。'
+      signed_out: 'ログアウトしました。'
+  librize:
+    original_code: 'コード'
+    internal_code: 'コード'
+  footer:
+    for_users: "図書館利用者の方へ"
+    for_owners: "本棚オーナーの方へ"
+    for_media: "メディアの方へ"
+    help: "リブライズの使い方"
+    places: "各地のブックスポット"
+    registration: "ブックスポットの開設と本の登録"
+    prices: "有料オプション"
+    demo: "デモを見たい方は…"
+    aboutus: "リブライズの運営者について"
+  menu:
+    aboutus: "リブライズとは"
+    help: "使い方"
+    registration: "ブックスポットの開設"
+    places: "各地の本棚"
+    profile: "プロフィール"
+    logout: "ログアウト"
+    login: "ログイン"
+    terms: "利用規約"
+    privacy: "プライバシーポリシー"
+    how_to_contact: 'ご連絡は、<a href="https://www.facebook.com/librize">Facebookページ</a>へのメッセージ、<br />または<a href="mailto:welcome@librize.com">メール</a>までどうぞ。'
+    faq: "よくある質問と答え"
+    facebook_group: "Facebookグループ"
+    edit_profile: "設定"
+    store: "ストア"
+    see_store: "ストアを見る"
+    librize_store: "リブライズストア"
+  top:
+    service_description: |-
+      リブライズは、本を通じて
+      人と場所をもっと面白くするサービス。
+      一緒に「図書館」はじめませんか?
+    cafe: "カフェ"
+    office: "オフィス"
+    restaurant: "レストラン"
+    coworking_space: "コワーキングスペース"
+    slogan: |-
+      バーコードリーダーがあれば、
+      誰でも簡単に本棚を図書館にできます。
+    new_and_donated: "新着/寄贈書"
+    message_for_owners: "あなたの本棚もリブライズで共有できます。詳しくはこちら!"
+    facebook_login: "Facebookでログイン"
+  show_all: 'すべて表示'
+  bookspots: 'ブックスポット'
+  bookspots_on_top: 'ブックスポット'
+  num_collected_books: "蔵書数 %{num}冊"
+  admin:
+    create_bookspot: "ブックスポットを作成"
+    create_bookspot_more: "ブックスポットを追加"
+    bookspot_title: "場所のタイトル"
+    bookspot_description: "場所の説明"
+    bookspot_tag_line: "シンプルな一行での説明です"
+    label:
+      title: "タイトル"
+      description: "説明"
+      unique_url: "ユニークURL"
+      bookspot_type: "ブックスポットのタイプ"
+      owner: "オーナー"
+      manager: "管理者"
+      download_data: "蔵書データ"
+      download_data_here: "データをダウンロード(CSV形式)"
+      registration_email: "蔵書登録用メールアドレス"
+      experimental_feature: "いずれも実験的な機能"
+      describe_x: "Xをクリックして管理者を削除できます。"
+      route: "ブックスポットまでの経路"
+      address: "住所"
+      tel: "電話"
+      email: "コンタクトメールアドレス"
+      site_url: "Webサイト"
+      twitter: "Twitterアカウント"
+      tag_line: "タグライン"
+      calilable: "カーリル連携"
+      calilable_yes: "検索対象にする"
+      calilable_no: "検索対象にしない"
+      calilable_message: "カーリルは日本最大の図書館検索サービスです。ブックスポットをカーリルの検索対象に含めることで、ブックスポットにある本の存在を、広く周知することができます。公開されるのは、「読める」「貸し出しできる」「貸し出し中」という項目です。しかし、利用を会員に限定している場合など、対外的な周知を希望しない場合は、この機能をオフに設定できます。"
+    how_to_get_unique_url: "%{mpi}冊以上公開で取得できます"
+    unique_url_desc: "最初は英字、次以降は英数字-.(3文字以上)"
+    borrow:
+      ok: "貸出OK"
+      ng: "閲覧のみ"
+    submit: "保存"
+    register: "登録!"
+    scan_barcode: "バーコードをスキャンしてください"
+    bookspot:
+      route: "最寄り駅とそこからの経路などの説明"
+      address: "住所を入力してください"
+      tel: "0120-000-000"
+      email: "例: welcome@librize.com"
+      site_url: "例: http://librize.com"
+      twitter: "例: @librize"
+  search:
+    label:
+      title: "検索"
+      bookspot: "ブックスポットの中を検索"
+      global: "グローバル検索"
+      street: "グループの中を検索"
+      place: "ブックスポット検索 : 名称・都道府県"
+  just_returned: "最近返却された本"
+  recently_used_places: "最近利用した場所"
+  picked_items: "ピックアップ"
+  user_was_successfully_updated: "ユーザ情報が更新されました。"
+  user_email_was_successfully_confirmed: "メールアドレスが確認できました。"
+  user_email_was_not_successfully_confirmed: "メールアドレスの確認ができませんでした。"
+  this_is_email_confirmation: "メールアドレスが変更されました。これは確認のメールです。"
+  please_click_to_confirm_email_link: "確認のため、このリンクをクリックしてください。"
+  registration:
+    connect_scanner: "<span class=\"scanner\">バーコードリーダ</span>を用意して、Mac/PCに繋ぎます。"
+    signup_or_login_after: "<span class=\"logo\">リブライズ</span>に、サインアップ/ログイン!<span class=\"message\">※あなたはすでにログインしています。登録ありがとうございます!</span>"
+    signup_or_login_before: "<span class=\"logo\">リブライズ</span>に、<a href=\"/login-and-back\">サインアップ/ログイン!</a>"
+    select_facebook_page: "あなたがオーナーのFacebookページを選んで、ブックスポットを作成します。"
+    create_bookspot: "ブックスポットを作成"
+    cancel_bookspot: "キャンセル"
+    create_another_facebook_page: "上記の一覧以外の、Facebookページを新しく作るにはこちらからどうぞ"
+    need_facebook_page: "ブックスポットの作成にはFacebookページが必要です。"
+    create_facebook_page: "Facebookページを新しく作るにはこちらからどうぞ"
+    need_manage_pages_permission1: "すでにFacebookページをお持ちの方は"
+    need_manage_pages_permission2: "をクリックしてください。その際、「リブライズがFacebookページを管理することを求めています。」というメッセージが出ますが、OKをクリックしてください。Facebookページ一覧だけを取得し、その後は利用しません。ブックスポットの作成が終わったところでアプリの設定を変更しても問題ありません。"
+    existing_facebook_pages: "※すでに"
+    existing_facebook_pages_second_part: "が、作成済みです。"
+    your_facebook_pages: "あなたの持っているFacebookページ"
+    scan_barcode: "<span class=\"book\">本の裏表紙</span>に印刷された<span class=\"barcode\">バーコード</span>を読み取って行きます。"
+    choose_facebook_page: "ブックスポットのFacebookページを選択してください"
+  mobile:
+    label:
+      borrowed_at: "貸出"
+    borrowed_at_format: "%m/%d"
+  tag_label:
+    readable: "ここでは、本を読むことができます"
+    borrowable: "ここでは、本の貸出を行っています"
+    short:
+      readable: "読む"
+      borrowable: "借りる"
+    not_borrowable: "ここでは、本の貸出を行っていません"
+  search_condition:
+    title: "検索条件"
+    all: "すべて"
+    recently_created: "新刊書"
+    recommended: "スタッフのおすすめ"
+    borrowed_or_returned: "貸出と返却本"
+    info: "ブックスポット情報"
+    sort_order:
+      title: "並び替え"
+      reg_desc: "登録順・降順"
+      upd_desc: "更新順・降順"
+      recently_returned: "最近返却された本"
+    pool_place_items: "未登録の本"
+    not_in_shelves: "本棚にない本"
+  books_presented_by: "%{name}さんの寄贈書"
+  key:
+    borrowed: "貸出"
+    presented: "寄贈"
+  auth:
+    cancel: "キャンセル"
+    proceed: "ログインまたは認証して進む"
+    facebook_auth_required: "Facebook認証が必要になります"
+    facebook_auth_required_to_view_user_page: "<p>ユーザーページを閲覧するにはFacebook認証が必要です。</p><p>一度でもログインしたことがあれば、自動的にログインをした後、ユーザページにアクセスできますが、初めての場合はFacebook認証の確認画面が表示され、了解を得たのちにアクセスできます。</p>"
+  item:
+    author: "著者"
+    publisher: "出版社"
+    presenter: "この本を寄贈した人"
+    alt_amazon: "Amazonで買う"
+    edit_item_info: "本の情報を編集"
+    edit_cancel: "キャンセル"
+    save: "保存"
+    delete: "削除"
+    edit: "編集"
+    confirm_delete: "%{title}を削除してもよいですか?"
+    readable_place: "この本が読めるところ"
+    borrowed_people: "借りた人・借りている人"
+    no_borrowed_person: "まだ借りた人はいません"
+  language:
+    ja: "日本語"
+    en: "英語"
+  place:
+    info: "ブックスポット情報"
+    edit:
+      label: "設定"
+      member_role:
+        card: "カード利用者(シール含む)"
+      pane:
+        history: "アクティビティ"
+        members: "メンバー"
+        managers: "管理者"
+        card_users: "カード利用者(シール含む)"
+        profile: "ブックスポット設定"
+        design: "デザイン"
+        coupons: "クーポン"
+        lab: "リブライズ・ラボ"
+        upload: "本の登録"
+        history: "貸出履歴"
+        connection: "他サービスとの連携"
+  back_to_the_bookshelf: "ブックスポットページに戻る"
+  term:
+    favorite: "お気に入り"
+    favorited: "お気に入り"
+    favorite_using_facebook: "ログインするとお気に入りにできます"
+  order:
+    created: "注文が完了しました"
+    updated: "注文が更新されました"
+    payment_method:
+      invoice: "請求書"
+      card: "クレジットカード"
+    state:
+      ordered: "注文済み"
+      payed: "入金済み"
+      preparing: "出荷準備中"
+      shipped: "出荷済み"
+      ordered_by_invoice: "注文済み(請求書払い)"
+      waiting_receipt: "出荷済み(入金待ち)"
+      complete_receipt: "出荷済み(入金完了)"
+  currency:
+    jpy:
+      format: "%n%u"
+      unit: "円"
+  cart:
+    added: "カートに追加されました"
+    listing: "カートの中身"
+    empty: "カートは空です"
+    confirm: "注文内容確認"
+    add: "カートに追加"
+    empty_redirect: "カートには何も入っていません。ストアトップに戻ります。"
+    invalid_item: "この商品を追加することはできません。"
+  user:
+    label:
+      email: "メールアドレス"
+      locale: "表示言語"
+      description: "プロフィール"
+      name: "名前"
+      password: "パスワード"
+      password_confirmation: "パスワード(再入力)"
+    edit:
+      pane:
+        profile: "プロフィール"
+        orders: "ご注文履歴"
+        wallets: "登録済みクレジットカード"
+  locale:
+    en_label: "英語 - English"
+    ja_label: "日本語 - 日本語"
+  label:
+    community: "コミュニティ"
+    bookspot_staff: "ブックスポットのスタッフ"
+    share: "シェア"
+    favorite_users: "このブックスポットをお気に入りにしているユーザ"
+    borrowed_users: "本の貸出・チェックインしたユーザ"
+    staff: "スタッフ"
+    presented_users: "寄贈者"
+    user_card_fb: "FB利用者カード"
+    payment:
+      card: "カード払い"
+      invoice: "請求書払い"
+    free: "無料"
+    barcode_token:
+      dupl: "書籍シール"
+      monotag: "ものタグ"
+    mono_library: "ものライブラリー"
+  messages:
+    payment_error: "カード番号等の入力内容に間違いがあります。"
+  store:
+    add_to_cart: "カートに追加"
+    description: "リブライズストアへようこそ。リブライズストアでは、リブライズをもっと楽しむためのアイテムを販売しています。公式バーコードリーダーを始め、Facebookを利用しなくてもブックスポットが作れるカード、利用者向けのカード・シールのほか、本を管理するためのグッズもそろっています。ほとんどは送料込みで販売しています。気になるアイテムがあったらぜひお試しください。"
+  time:
+    formats:
+      month_day: '%-m月%-d日'
+  user_view_condition:
+    activities: "本の履歴"
+    borrow_activities: "借りた本"
+    present_activities: "寄贈した本"
+  go:
+    new:
+      enter_place_code: "場所コードを<br>スキャンしてください。"
+      enter_auth_code: "認証コードをスキャンしてください。"
+    card: "カード"
+    email: "メール"
+  pool_place_item:
+    exit_confirmation: "入力の一部が保存されていません。別ページに移動しますか?"
+  twitter:
+    follow_librize: "@librizeさんをフォロー"
+  fail_to_pay: "カード決済時に問題が発生しました。別のカードをご利用ください。"
+  order_error: "注文が正しく処理されませんでした。このエラーが何度も起きる場合は、 store@librize.com までご連絡ください。"
